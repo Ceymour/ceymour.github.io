@@ -1,15 +1,37 @@
+html,
 body {
+    height: 100%;
+}
+
+.container-fluid {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f2df;
+}
+
+.social-media-container {
+    width: inherit;
+    justify-content: center;
+}
+
+.social-media-outer-box {
+    justify-content: center;
+}
+
+.logo {
+    width: 15rem !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.social-media-box {
+    background-color: #ffffff;
+    border-radius: 10px;
     text-align: center;
-    margin: 0px;
-    font-family: "Comic Sans MS";
 }
 
-.about {
-    background-color: yellow;
-    padding: 0px;
-}
-
-.projects {
-    background-color: yellow;
-    padding: 10px;
+.icon {
+    width: 2rem;
 }
